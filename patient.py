@@ -19,7 +19,7 @@ assistant_id = "asst_NBqG3OoWzB55E2XLpzyxpigG"
 thread_messages = client.beta.threads.messages.list(thread_id, order="asc")
 
 #페이지 제목
-st.header("22 Questions 01 M/50")
+st.header("22 Questions 02 M/50")
 
 #메세지 역순으로 가져와서 UI에 뿌려주기
 for msg in thread_messages.data:
