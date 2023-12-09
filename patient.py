@@ -13,7 +13,7 @@ if 'thread_id' not in st.session_state:
 #thread_id, assistant_id 설정
 thread_id = st.session_state.thread_id
 #미리 만들어 둔 Assistant
-assistant_id = "asst_NBqG3OoWzB55E2XLpzyxpigG"
+assistant_id = "asst_9eMprzL45hYsqZiKArK0YCdy"
 
 #메세지 모두 불러오기
 thread_messages = client.beta.threads.messages.list(thread_id, order="asc")
